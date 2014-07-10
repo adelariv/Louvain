@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!---boton cuando esta presionado-->
+    <item android:drawable="@drawable/decidelogo2"
+        android:state_pressed="true"/>
+
+    <!---boton cuando esta seleccionado-->
+    <item android:drawable="@drawable/decidelogo2"
+        android:state_focused="true"/>
+
+    <!---boton cuando esta normal-->
+    <item android:drawable="@drawable/decidelogo"/>
+</selector>

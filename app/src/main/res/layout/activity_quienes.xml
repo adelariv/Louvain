@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pongsrl.louvain.app.Quienes">
+
+    <RelativeLayout
+        android:id="@+id/relativeBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#95310f"
+        >
+
+        <Button
+            style="@android:style/Widget.Button.Small"
+            android:id="@+id/botonmenu"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/btnmenu"
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/tituloquienes" />
+    </RelativeLayout>
+
+    <HorizontalScrollView android:id="@+id/contenido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/relativeBanner">
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#99000000"
+            >
+
+
+            <ImageView
+                android:id="@+id/content1"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/quienes3"
+                />
+            <ImageView
+                android:id="@+id/content2"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/quienes2"
+
+                />
+            <ImageView
+                android:id="@+id/content3"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/quienes1"
+                />
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contenido">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="30dp"
+        android:text="Lovaina Cooperación, la ONG de la Universidad Católica de Lovaina (UCL), pone a disposición las competencias universitarias para resolver los desafíos del desarrollo. Desde 1981, la ONG lucha contra el hambre, la enfermedad y la pobreza junto a las poblaciones más desfavorecidas.
+
+Lovaina Cooperación es hoy la ONG universitaria más importante de Bélgica, con 23 proyectos y 140 socios en el Sur."/>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/relativeFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#95310f"
+        android:layout_alignParentBottom="true"
+
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/titulomenu" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

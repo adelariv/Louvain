@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Louvain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Desarrollado por Pong SRL</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_gestion">Gestion</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_quienes">Quienes</string>
+    <string name="title_activity_decidan">Decidan</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_gestion2011">Gestion2011</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gestion2012">Gestion2012</string>
+    <string name="title_activity_gestion2013">Gestion2013</string>
+
+</resources>

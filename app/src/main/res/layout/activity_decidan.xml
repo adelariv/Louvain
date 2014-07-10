@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pongsrl.louvain.app.Decidan"
+   >
+
+    <RelativeLayout
+        android:id="@+id/relativeBanner"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#95310f"
+        >
+
+        <Button
+            style="@android:style/Widget.Button.Small"
+            android:id="@+id/botonmenu"
+            android:layout_width="40dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/btnmenu"
+            />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:src="@drawable/titulomenu"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/botonmenu"
+            android:layout_centerVertical="true"
+            android:paddingLeft="0dp"/>
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="40dp"
+            android:src="@drawable/titulodecidiendo"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/relativeBanner"
+        android:background="@drawable/logo"
+        >
+
+    </RelativeLayout>
+
+
+
+    <ScrollView android:id="@+id/contenido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentRight="true"
+       >
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#E3E2D9"
+
+
+            >
+
+        <TextView
+           android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" En el marco del programa “Invertir en las personas”,
+patrocinado por la Unión Europea, se generó en abril del 2010 la convocatoria mundial denominada “Buena salud para todos”. A partir de ello, se estableció una alianza con participación de Organizaciones de Bolivia, Perú y Ecuador para construir el proyecto: “Decidiendo con Libertad: ejercicio pleno, seguro y responsable de los derechos sexuales y reproductivos en adolescentes, jóvenes y mujeres en Bolivia, Perú y Ecuador”."/>
+
+
+          <TextView
+             android:id="@+id/txt2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="2dp"
+              android:text=" La coordinación general del proyecto fue responsabilidad de la Organización belga Louvain Cooperation Au Développment (LD)."/>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="2dp"
+                android:text=" Los objetivos generales en materia de derechos y salud reproductiva y sexual en el marco del programa temático «buena salud para todos» de la Unión Europea, consisten en mejorar la salud reproductiva y sexual en los países en desarrollo, garantizar el derecho de las mujeres, de los hombres y adolescentes a una buena salud en este ámbito, y proporcionar una ayuda financiera y las competencias adecuadas con el fin de promover un enfoque global y un reconocimiento de los derechos y la salud reproductiva y sexual tal como se definen en el Programa de Acción de la Conferencia Internacional sobre la Población y el Desarrollo (CIPD)."/>
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="2dp"
+                android:text=" El proyecto “Decidiendo con Libertad: ejercicio pleno, seguro y responsable de los derechos sexuales y reproductivos en adolescentes, jóvenes y mujeres en Bolivia, Perú y Ecuador”, tuvo una duración de tres años, y a partir de ellos se promulgó la aplicación y el ejercicio de políticas públicas en el ámbito de los derechos sexuales y reproductivos con énfasis en adolescentes y jóvenes.
+
+
+                "/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
