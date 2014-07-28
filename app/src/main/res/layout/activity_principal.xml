@@ -108,7 +108,17 @@
         android:layout_height="45dip"
         android:background="#95310f"
         android:layout_alignParentBottom="true"
+
         >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Louvain"
+            android:id="@+id/"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"/>
+
 
     </RelativeLayout>
 

@@ -2,20 +2,14 @@
 <pre-dex-items>
 
     <item
-        dex="H:\Android Mac\Louvain\app\build\intermediates\pre-dexed\debug\classes-2d8fd12e9ad2bd97570833199ff6267e47c7ac44.jar"
-        jar="H:\Android Mac\Louvain\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
-    <item
-        dex="H:\Android Mac\Louvain\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-d7682e1b9b3d9714a250c893afc90d9a3caf6040.jar"
-        jar="C:\Users\kudo\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        dex="/Users/kudomac/AndroidStudioProjects/Louvain/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-fe930dc68beb1e566675ce71b270d4091c6c249b.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
     <item
-        dex="C:\Users\kudo\AndroidStudioProjects\Louvain\app\build\intermediates\pre-dexed\debug\classes-f0d1bed11910a8e8b5c5567831f7f42ba8ee49dd.jar"
-        jar="C:\Users\kudo\AndroidStudioProjects\Louvain\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        dex="/Users/kudomac/AndroidStudioProjects/Louvain/app/build/intermediates/pre-dexed/debug/classes-84a7b9e494764961138e993ed8965b37b5f7c064.jar"
+        jar="/Users/kudomac/AndroidStudioProjects/Louvain/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
